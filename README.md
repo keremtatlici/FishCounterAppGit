@@ -1,5 +1,6 @@
 # FishCounterAppGit
  Balık sayma makinasından firebase database'e gelen verileri gerçek zamanlı gösteren Android Aplikasyon
+	
  Test kullanıcı 1 : krmttlc@gmail.com
  Test kullanıcı 1 şifresi : 123456
  
