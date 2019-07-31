@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Countera</string>
+    <!--LOGIN ACTİVİTY-->
+    <string name="Email">Email</string>
+    <string name="Password">Şifre</string>
+    <string name="Beni_Hatirla">Beni hatırla</string>
+    <string name="Login">Giriş Yap</string>
+
+    <!--MAIN ACTİVİTY-->
+    <string name="Date">Bugün ve Tarihi</string>
+
+    <string name="There_is_no_count_now">Sayım yapılmıyor</string>
+    <string name="Fishes_Are_Counting">Balıklar Sayılıyor..</string>
+
+    <string name="Start_Time">Saymanın Başlama Saati: </string>
+    <string name="End_Time">Saymanın Bitme Saati: </string>
+    <string name="Fish_Count">Güncel Balık Sayısı: </string>
+    <string name="Log_Page">Geçmiş Kayıtlara Git</string>
+    <string name="Logout">Çıkış Yap</string>
+
+    <!--LOG ACTİVİTY-->
+    <string name="Specific_Date">GG-AA-YYYY şeklinde giriniz (örnek : 05-07-2019)</string>
+    <string name="List_All">Hepsini Listele</string>
+    <string name="List_Specific_Date">Yazılan Tarihi Listele</string>
+    <string name="Date_Log">Tarih: </string>
+    <string name="Count_Num">.Sayım</string>
+    <string name="Counter">Sayaç: Toplam</string>
+    <string name="Start_Time_Log">Saymanın başlama saati: </string>
+    <string name="End_Time_Log">Saymanın bitme saati: </string>
+    <string name="space">--------------------------------------------------------------------------------------</string>
+    <string name="Go_Back">Ana Sayfaya Dön</string>
+
+
+    <!--FIREBASEFUNCİONS-->
+    <string name="There_is_no_internet_connection">Internet Bağlantısı Yok !!</string>
+    <string name="Logout_Successful">Başarıyla çıkış yaptınız.</string>
+    <string name="Login_Progress">Giriş Yapılıyor...</string>
+    <string name="Invalid_User">Email veya Şifreniz yanlış. Lütfen tekrar giriniz...</string>
+
+
+    <string name="Counting_Not_Done_Yet">Sayım işlemi henüz bitmedi...</string>
+    <string name="There_is_no_counting_today">Bugün için henüz sayım yapılmamıştır.Sayım başlar başlamaz balık sayıları ekranda gözükecektir.</string>
+    <string name="Count_num">.Sayım)</string>
+    <string name="onCanceled">Veritabanından veriler çekilemedi lütfen bildirin...</string>
+
+
+    <string name="Cant_Find_Record">Kayıt Bulunamadı</string>
+    <string name="fish"> Balık</string>
+
+    <string name="MacNum">Makine Numarası : </string>
+    <string name="goBack2Machines">Makinelerime Geri Dön</string>
+    <string name="Listing">Listeleniyor..</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- uygulama veya activity ye uygulanacak tema -->
+    <style name="OzelActionBarTemasi"
+        parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/OzelActionBarStili</item>
+
+        <!-- Support Library uyumluluğu için -->
+        <!-- dikkat edin android: ön eki yok -->
+        <item name="actionBarStyle">@style/OzelActionBarStili</item>
+    </style>
+
+    <!-- Action Bar stilleri -->
+    <style name="OzelActionBarStili"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/countera1</item>
+
+        <!-- Support Library uyumluluğu için -->
+        <!-- dikkat edin android: ön eki yok -->
+        <item name="background" >@drawable/countera1</item>
+    </style>
+
+</resources>

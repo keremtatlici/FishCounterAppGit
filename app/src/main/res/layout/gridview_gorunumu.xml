@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/counttv"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@+id/sayimtv"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="2dp"
+        android:background="#15000000"
+        android:text="@string/Counter"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/spacetv"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@+id/endtv"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/space"
+        android:textSize="16sp"
+        android:background="#15000000"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/starttv"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@+id/counttv"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="2dp"
+        android:background="#15000000"
+        android:text="@string/Start_Time_Log"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sayimtv"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@+id/tarihtv"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="2dp"
+        android:background="#15000000"
+        android:text="@string/Count_Num"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tarihtv"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="#15000000"
+        android:text="@string/Date_Log"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/endtv"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@+id/starttv"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="2dp"
+        android:background="#15000000"
+        android:text="@string/End_Time_Log"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+</RelativeLayout>

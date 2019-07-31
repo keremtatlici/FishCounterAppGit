@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Countera</string>
+    <string name="Beni_Hatirla">Remember me</string>
+    <string name="Cant_Find_Record">Cannot Find Record</string>
+    <string name="Count_Num">.Census</string>
+    <string name="Count_num">.Census)</string>
+    <string name="Counter">Count: Total</string>
+    <string name="Counting_Not_Done_Yet">Counting is not finish yet</string>
+    <string name="Date">Today\'s Date</string>
+    <string name="Date_Log">Date:</string>
+    <string name="Email">Email</string>
+    <string name="End_Time">End Time Of Counting:</string>
+    <string name="End_Time_Log">End time of counting:</string>
+    <string name="Fish_Count">"Current Number Of Fish: "</string>
+    <string name="Fishes_Are_Counting">Fishes Are Counting..</string>
+    <string name="Go_Back">Turn Back To The Main Page</string>
+    <string name="Invalid_User">Email or Password is incorrect</string>
+    <string name="List_All">List Them All</string>
+    <string name="List_Specific_Date">List Specified Date</string>
+    <string name="Log_Page">Go To The Past Records</string>
+    <string name="Login">Login</string>
+    <string name="Login_Progress">Logging In...</string>
+    <string name="Logout">Logout</string>
+    <string name="Logout_Successful">You have successfully logged out.</string>
+    <string name="Password">Password</string>
+    <string name="Specific_Date">please type  DD-MM-YYYY  (example: 05-07-2019 )</string>
+    <string name="Start_Time">Start Time Of Counting:</string>
+    <string name="Start_Time_Log">"Start time of counting: "</string>
+    <string name="There_is_no_count_now">Counting stopped</string>
+    <string name="There_is_no_counting_today">There is no census yet. As soon as the counting starts, the fish numbers will appear on the screen.</string>
+    <string name="There_is_no_internet_connection">There is no Internet Connection!!</string>
+    <string name="onCanceled">Please report that data could not be retrieved from the database.</string>
+    <string name="space">--------------------------------------------------------------------------------------</string>
+    <string name="fish">Fish</string>
+    <string name="MacNum">"Machine Number : "</string>
+    <string name="goBack2Machines">Return to the Machines Number List</string>
+    <string name="Listing">Listing..</string>
+</resources>

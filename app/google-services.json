@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "131140275833",
+    "firebase_url": "https://countera-mobile-app.firebaseio.com",
+    "project_id": "countera-mobile-app",
+    "storage_bucket": "countera-mobile-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131140275833:android:b1a1d2ec95a1e6b4",
+        "android_client_info": {
+          "package_name": "com.shakabrah.fishcounterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131140275833-8a8mo1ensukk3ks5cfp3gk58nbngejdn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shakabrah.fishcounterapp",
+            "certificate_hash": "9f730958dd52e1fbcdfd49da985e3bed9f67e288"
+          }
+        },
+        {
+          "client_id": "131140275833-p189er018ld3fqa92k7u5idne2gt7qb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApvNXsjBrMnRVvHOR9evA1-Ds0cYT5gfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131140275833-p189er018ld3fqa92k7u5idne2gt7qb0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131140275833:android:d9129d3c952d28bb",
+        "android_client_info": {
+          "package_name": "com.shakabrah.fishcountermobileappgit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131140275833-rc1krd7v7qi05do5h7krfnq9n4nu8mqu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shakabrah.fishcountermobileappgit",
+            "certificate_hash": "9f730958dd52e1fbcdfd49da985e3bed9f67e288"
+          }
+        },
+        {
+          "client_id": "131140275833-p189er018ld3fqa92k7u5idne2gt7qb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApvNXsjBrMnRVvHOR9evA1-Ds0cYT5gfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131140275833-p189er018ld3fqa92k7u5idne2gt7qb0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

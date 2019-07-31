@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Activities.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:contentDescription="TODO"
+            android:radius="55dp"
+            app:srcCompat="@drawable/countera1" />
+
+        <TextView
+            android:id="@+id/MacNumTv"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="#15000000"
+            android:radius="55dp"
+            android:shadowColor="#00D3C0C0"
+            android:text="Makine Numarası"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Date_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="#15000000"
+            android:radius="55dp"
+            android:shadowColor="#00D3C0C0"
+            android:text="@string/Date"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewFlash"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_margin="4dp"
+            android:layout_weight="2"
+            android:background="#15000000"
+            android:text="@string/There_is_no_count_now"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/StartTime_Label"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:layout_weight="2"
+            android:background="#15000000"
+            android:text="@string/Start_Time"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/EndTime_Label"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_margin="4dp"
+            android:layout_weight="2"
+            android:background="#15000000"
+            android:text="@string/End_Time"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/FishCount"
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:layout_margin="4dp"
+            android:layout_weight="3"
+            android:background="#15000000"
+            android:text="@string/Fish_Count"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="195dp"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_corner"
+                android:text="@string/Log_Page"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/go2machinebtn"
+                android:layout_width="195dp"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_corner"
+                android:text="@string/goBack2Machines"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/cikisyapbtn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner"
+            android:onClick="onClick"
+            android:text="@string/Logout"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
