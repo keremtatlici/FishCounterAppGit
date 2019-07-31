@@ -8,7 +8,7 @@
 
 Uygulama Tanıtım ve Kullanım Klavuzu
 
-Adım 1) Kurulum ve Uygulamanın Çalıştırılması
+Adım 1)  Kurulum ve Uygulamanın Çalıştırılması
 Countera.apk dosyasını herhangi bir  dosya yöneticisi ile açın.Birkaç saniye içerisinde kurulum tamamlanacaktır.
 Uygulamayı (Countera) açın.
 
